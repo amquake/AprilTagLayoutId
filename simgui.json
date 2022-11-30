@@ -1,0 +1,57 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/InstantCommand": "Command",
+      "/SmartDashboard/Layout Identification Viz": "Field2d",
+      "/SmartDashboard/Serialize JSON": "Command"
+    },
+    "windows": {
+      "/SmartDashboard/InstantCommand": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Layout Identification Viz": {
+        "Robot": {
+          "arrows": false,
+          "selectable": false,
+          "style": "Hidden"
+        },
+        "estLayout": {
+          "arrowColor": [
+            1.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "selectable": false,
+          "style": "Hidden"
+        },
+        "height": 4.114799976348877,
+        "robotPoses": {
+          "arrowWeight": 2.0,
+          "length": 0.30480000376701355,
+          "selectable": false,
+          "weight": 2.0,
+          "width": 0.30480000376701355
+        },
+        "units": "feet",
+        "width": 8.229599952697754,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "SmartDashboard": {
+        "Layout Identification Viz": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  }
+}
